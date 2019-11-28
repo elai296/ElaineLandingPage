@@ -100,14 +100,12 @@
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: contain;
+  background-size: cover;
 }
 
 @media screen and (max-width: 736px){
   .fixed-bg {
-    padding: 7em 3em 5em 3em;
-    height: auto;
-    min-height: 0;
+    background-attachment: scroll;
   }
 }
 
